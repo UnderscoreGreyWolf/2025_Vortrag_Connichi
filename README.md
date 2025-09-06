@@ -3,13 +3,13 @@
 ## Build presentation (PDF)
 
 ```sh
-npx @marp-team/marp-cli@latest  --theme ./style/dracula.css ./presentation.md -o presentation.pdf --allow-local-files --pdf-notes --pdf-outline
+npx @marp-team/marp-cli@latest  --theme ./style/dracula.css ./presentation.md -o presentation.pdf --pdf-notes --pdf-outline
 ```
 
 ## Build presentation (HTML)
 
 ```sh
-npx @marp-team/marp-cli@latest  --theme ./style/dracula.css ./presentation.md -o presentation.html --allow-local-files
+npx @marp-team/marp-cli@latest  --theme ./style/dracula.css ./presentation.md -o presentation.html
 ```
 
 ## Build qrcodes
