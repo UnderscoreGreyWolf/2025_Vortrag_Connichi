@@ -1,0 +1,132 @@
+.column {
+    float: left;
+    width: 50%;
+}
+
+ol.sources {
+    li {
+        a {
+            overflow: hidden;
+            font-size: smaller;
+            break: break-all;
+            hyphenate-character: "_";
+        }
+    }
+}
+
+.qrcode {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    align-self: center;
+    justify-self: end;
+}
+
+.social {
+    /* border: 2px solid rgba(96, 139, 168, 0.3); */
+    width: 95%;
+    margin: 0 auto;
+    justify-self: stretch;
+    height: 100px;
+    display: inline-grid;
+    /* inline to prevent splitting */
+    align-content: space-between;
+    align-items: center;
+    justify-items: start;
+    grid-template:
+        "title qr" 50%
+        "name qr" 50%;
+    /*
+          grid-template:
+              "title name qr";
+          */
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 2px 5px rgba(255, 0, 0, 0.3);
+
+}
+
+.social>a:has(img),
+img.social-qr {
+    align-self: center;
+    justify-self: end;
+    grid-area: qr;
+
+
+
+}
+
+.social-name {
+    grid-area: name;
+    font-size: smaller;
+}
+
+.social-title {
+    text-decoration: none;
+    text-wrap: nowrap;
+    text-overflow: clip;
+    justify-self: start;
+    font-size: smaller;
+    grid-area: title;
+
+}
+
+.two-balanced-columns {
+    /* border: 2px solid rgba(255, 127, 7, 0.3); */
+    columns: 2;
+    column-fill: balance;
+    margin: 0 auto;
+    padding: 0;
+    justify-items: stretch;
+}
+
+ul.social-list {
+
+
+    /* border: 2px solid rgba(255, 127, 7, 0.3); */
+
+    break-before: avoid;
+
+    &.standalone {
+        height: 360px;
+        columns: 2;
+        column-rule-color: #ff0000;
+        column-fill: auto;
+        column-gap: 10%;
+        list-style-position: outside;
+
+
+        /* this is important addition */
+        & li {
+            /* border: 4px dashed rgba(7, 255, 61, 0.3); */
+            align-items: start;
+            padding: 20px;
+            width: 50%;
+
+            &:before {
+                content: "";
+                padding-left: 10px;
+
+            }
+        }
+    }
+
+}
+
+
+
+/* Clear floats after the columns */
+/*.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }*/
+
+.warning-block {
+    border: 5px solid rgba(201, 52, 14, 0.3);
+
+    &::before {
+        content: "WARN";
+    }
+
+    prefix: ">";
+}
