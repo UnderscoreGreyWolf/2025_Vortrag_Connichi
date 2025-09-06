@@ -459,17 +459,15 @@ Nochmal Hinweis auf Nervenschäden
 ### Sicherheitsausrüstung
 
 * Dinge zum Seil zerstören, wenn es schnell gehen muss
-<!--
-Scheren
-Seilschneider
-Messer
--->
+    <!--
+    Scheren
+    Seilschneider
+    Messer
+    -->
+    <div class="warning-block">Wenn andere Leute fesselnde Person keine Schere hat, überschätzt sie sich grundsätzlich</div>
 <!--
 Show and Tell
 -->
-
-<div class="warning-block">Wenn andere Leute fesselnde Person keine Schere hat, überschätzt sie sich grundsätzlich
-</div>
 
 * Bonus: Material für Aftercare
     - Dextrose
