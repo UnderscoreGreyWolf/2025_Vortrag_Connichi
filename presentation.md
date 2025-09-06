@@ -560,6 +560,14 @@ Seilführung hinter dem Rücken ist bei Self-Bondage tricky!
     -->
     * TheDuchy(R) <a href="https://www.theduchy.com/"><img src="https://raw.githubusercontent.com/UnderscoreGreyWolf/2025_Vortrag_Connichi/refs/heads/main/img/theduchy.png" class="qrcode" alt="QR Code"/></a>
 
+
+---
+## Habt ihr Fragen?
+
+<!--
+Platz für Fragen aus dem Publikum
+-->
+
 ---
 
 ## Show (and Tell?)
