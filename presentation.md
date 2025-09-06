@@ -54,7 +54,7 @@ style: |
                 "title name qr";
             */
         border-radius: 5px 5px 5px 5px;
-        box-shadow: 0px 2px 5px rgba(255, 0, 0, 0.3);
+        /* box-shadow: 0px 2px 5px rgba(255, 0, 0, 0.3); */
 
     }
 
